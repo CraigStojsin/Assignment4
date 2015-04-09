@@ -7,3 +7,23 @@
 //
 
 #import <Foundation/Foundation.h>
+
+
+int valueFunction(int a , int b){
+    
+    if (a > b) {
+        NSLog(@"a is greater than b");
+    }else if ( a < b ){
+        NSLog(@"a is less than b");
+    }else {
+        NSLog(@"a is equal to b");
+    }
+        
+    int main0(int argc, const char * argv[]);
+        @autoreleasepool {
+            
+            valueFunction(7, 4);
+        }
+    
+        return 0;
+    }
