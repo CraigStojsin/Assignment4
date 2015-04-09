@@ -7,3 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+
+
+
+
+NSString *someString(NSString *message) {
+    
+    return message;
+}
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        
+        NSString *aString = @"hello world";
+        NSLog(@"The string is %@", someString(aString));
+        
+    }
+    return 0;
+}

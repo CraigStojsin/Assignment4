@@ -14,7 +14,7 @@
 int sum(int a, int b);
 
 
-int main(int argc, const char * argv[]) {
+int main6(int argc, const char * argv[]) {
     @autoreleasepool {
         
         NSLog(@"a + b = %d", sum (5, 5));
