@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		394067211AD619C70090DCD6 /* Challenge1.m in Sources */ = {isa = PBXBuildFile; fileRef = 394067201AD619C70090DCD6 /* Challenge1.m */; };
 		394067291AD61B420090DCD6 /* countByTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 394067281AD61B420090DCD6 /* countByTwo.m */; };
+		3940672B1AD61BD10090DCD6 /* Challenge2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3940672A1AD61BD10090DCD6 /* Challenge2.m */; };
+		3940672D1AD61BFF0090DCD6 /* Challenge3.m in Sources */ = {isa = PBXBuildFile; fileRef = 3940672C1AD61BFF0090DCD6 /* Challenge3.m */; };
+		3940672F1AD61C230090DCD6 /* Challenge4.m in Sources */ = {isa = PBXBuildFile; fileRef = 3940672E1AD61C230090DCD6 /* Challenge4.m */; };
+		394067311AD61C3C0090DCD6 /* Challenge5.m in Sources */ = {isa = PBXBuildFile; fileRef = 394067301AD61C3C0090DCD6 /* Challenge5.m */; };
+		394067331AD61C4A0090DCD6 /* Challenge6.m in Sources */ = {isa = PBXBuildFile; fileRef = 394067321AD61C4A0090DCD6 /* Challenge6.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +32,11 @@
 		3940671D1AD619C70090DCD6 /* TheFourthAssignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TheFourthAssignment; sourceTree = BUILT_PRODUCTS_DIR; };
 		394067201AD619C70090DCD6 /* Challenge1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Challenge1.m; sourceTree = "<group>"; };
 		394067281AD61B420090DCD6 /* countByTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = countByTwo.m; sourceTree = "<group>"; };
+		3940672A1AD61BD10090DCD6 /* Challenge2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Challenge2.m; sourceTree = "<group>"; };
+		3940672C1AD61BFF0090DCD6 /* Challenge3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Challenge3.m; sourceTree = "<group>"; };
+		3940672E1AD61C230090DCD6 /* Challenge4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Challenge4.m; sourceTree = "<group>"; };
+		394067301AD61C3C0090DCD6 /* Challenge5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Challenge5.m; sourceTree = "<group>"; };
+		394067321AD61C4A0090DCD6 /* Challenge6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Challenge6.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +53,7 @@
 		394067141AD619C70090DCD6 = {
 			isa = PBXGroup;
 			children = (
-				394067271AD61AF10090DCD6 /* New Group */,
+				394067271AD61AF10090DCD6 /* Count by two */,
 				3940671F1AD619C70090DCD6 /* TheFourthAssignment */,
 				3940671E1AD619C70090DCD6 /* Products */,
 			);
@@ -61,16 +71,21 @@
 			isa = PBXGroup;
 			children = (
 				394067201AD619C70090DCD6 /* Challenge1.m */,
+				3940672A1AD61BD10090DCD6 /* Challenge2.m */,
+				3940672C1AD61BFF0090DCD6 /* Challenge3.m */,
+				3940672E1AD61C230090DCD6 /* Challenge4.m */,
+				394067301AD61C3C0090DCD6 /* Challenge5.m */,
+				394067321AD61C4A0090DCD6 /* Challenge6.m */,
 			);
 			path = TheFourthAssignment;
 			sourceTree = "<group>";
 		};
-		394067271AD61AF10090DCD6 /* New Group */ = {
+		394067271AD61AF10090DCD6 /* Count by two */ = {
 			isa = PBXGroup;
 			children = (
 				394067281AD61B420090DCD6 /* countByTwo.m */,
 			);
-			name = "New Group";
+			name = "Count by two";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3940672B1AD61BD10090DCD6 /* Challenge2.m in Sources */,
+				3940672D1AD61BFF0090DCD6 /* Challenge3.m in Sources */,
+				3940672F1AD61C230090DCD6 /* Challenge4.m in Sources */,
+				394067311AD61C3C0090DCD6 /* Challenge5.m in Sources */,
+				394067331AD61C4A0090DCD6 /* Challenge6.m in Sources */,
 				394067211AD619C70090DCD6 /* Challenge1.m in Sources */,
 				394067291AD61B420090DCD6 /* countByTwo.m in Sources */,
 			);
