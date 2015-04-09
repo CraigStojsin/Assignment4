@@ -18,7 +18,7 @@ float fahrenheit = 27;
 
 
 
-int main(int argc, const char * argv[]) {
+int main4(int argc, const char * argv[]) {
     @autoreleasepool {
         
         NSLog(@"%f Fahrenheit is %.2f celsius",fahrenheit,newTemp(fahrenheit)) ;
